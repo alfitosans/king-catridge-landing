@@ -57,7 +57,7 @@ export const cartridgeData = [
       "Original Samsung toner cartridges deliver consistent printing, so you can rest easy and get on with your work.",
   },
 ];
-export function CarouselSpacing() {
+function CarouselSpacing() {
   return (
     <div className="items-center text-center justify-center">
       <div>
@@ -108,3 +108,5 @@ export function CarouselSpacing() {
     </div>
   );
 }
+
+export default CarouselSpacing;

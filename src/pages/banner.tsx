@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
-export function Banner() {
+function Banner() {
   return (
     <div className="relative text-center bg-slate-200">
       <img
@@ -76,3 +76,5 @@ export function Banner() {
     </div>
   );
 }
+
+export default Banner;

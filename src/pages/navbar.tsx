@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
 import { Button } from "../components/ui/button";
 
-export function Navbar() {
+function Navbar() {
   return (
     <>
       <div className="text-center items-center ">
@@ -65,3 +65,5 @@ export function Navbar() {
     </>
   );
 }
+
+export default Navbar;
